@@ -1,0 +1,166 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(5, 194, 246);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+nav a:hover{
+    color: aquamarine;
+}
+
+#titulo{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    justify-content: space-between;
+    color: blueviolet;
+    padding: 30px 30px;
+    background-color: black;
+}
+
+#subtitulo{
+    text-align: center;
+    align-items: center;
+    color: black;
+background-color: black;
+
+}
+.titulito{
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+    margin: 30px;
+}
+.p{
+    text-align: center;
+    padding: 30px 30px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.titulito-2{
+    text-align: center;
+    color: aquamarine;
+    background-color: black;
+    margin: 30px;
+    padding: 30px 30px;
+}
+
+.p-2{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px 30px;
+    margin: 30px;
+}
+
+.titu{
+    text-align: center;
+    background-color: black;
+    color: deeppink;
+    padding: 30px 30px;
+    margin: 30px;
+}
+
+
+.causass{
+    text-align: left;
+    margin: 30px;
+    padding: 30px 30px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.causass img{
+    height: 400px;
+}
+
+.conse{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+    margin: 30px;
+}
+
+
+.pp{
+    text-align: left;
+    margin: 30px;
+    padding: 30px 30px;
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+
+}
+
+.que{
+    text-align: center;
+    margin: 30px;
+    padding: 30px 30px;
+    background-color: black;
+    color: white;
+
+
+}
+
+.hacer{
+    text-align: left;
+    margin: 30px;
+    padding: 30px 30px;
+    background-color: black;
+    color: white;
+
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(128, 126, 126);
+    color: black;
+    margin: 20px;
+    padding: 20px 20px;
+}
+
+    body{
+        background-image: url("/contaminacion\ de\ agua.jpg");
+    }

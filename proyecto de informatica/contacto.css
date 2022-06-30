@@ -1,0 +1,128 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+nav a:hover{
+    color: rgb(128, 125, 125);
+}
+
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} 
+
+.info-angel{
+    margin: 20px;
+    background-color: coral;
+}
+
+.info-america{
+    margin: 20px;
+    background-color: blueviolet;
+}
+
+.info-yahir{
+    margin: 20px;
+    background-color: green;
+}
+
+.info-ricardo{
+    margin: 20px;
+    background-color: aqua;
+}
+
+.info-ricardo a:hover{
+    color: white;
+}
+.info-yahir a{
+    font-weight: 600px;
+    padding-right: 10px;
+}
+
+.info-yahir a:hover{
+    color: white;
+}
+
+.info-angel a{
+    font-weight: 600px;
+    padding-right: 10px;
+}
+
+.info-angel a:hover{
+    color: white;
+}
+
+
+.info-luis{
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.info-luis a{
+font-weight: 600px;
+padding-right: 10px;  
+color: blueviolet;
+}
+
+
+.info-luis a:hover{
+    color: white;
+}

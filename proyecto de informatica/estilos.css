@@ -1,0 +1,262 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+h1{ font: size 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0,0.5);
+    color: white;
+    background-color: blueviolet;
+}
+    
+button:hover{
+    background-color: rgb(219, 164, 247);
+}
+
+
+.container{
+max-width: 1200px;
+margin: auto;
+}
+
+header{
+    background-color: blue;
+
+}
+
+header .logo{
+margin: 0%;
+padding: 25px 30px;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{ 
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-bottom: 25px;
+
+}
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover{
+    color: white;
+
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+
+#temas-intro{
+    
+    color: white;
+}
+
+#temas-intro .container{
+    text-align: center;
+    padding: 150px 0px;
+}
+
+#temas-intro h2{
+margin-top: 0;
+}
+
+#temas-intro p{
+    display: none;
+}
+
+
+
+#caracteristicas .container{
+text-align: center;
+padding: 200px 12px;
+
+}
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+#caracteristicas p{
+    margin: 20px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#listo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 80vh;
+}
+#frace{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width:720px){
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+         padding-right: 20px;
+    }
+}
+
+.logo{
+    margin: 25px;    
+}
+
+.logo img{
+    height: 70px;
+}
+#inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+#grupoG{
+margin: 20px;
+text-align: center;
+font-weight: bold;
+
+}
+.grupo-G{
+    text-align: center;
+    text-decoration: black;
+    text-decoration-style: solid;
+}
+    
+.cartas-a a{
+color: black; 
+text-decoration: none;  
+}    
+    
+.cartas-a a:hover{
+ color: white;   
+}
+
+
+.cartas-d a{
+    color: black;
+    text-decoration: none;
+}
+
+.cartas-d a:hover{
+    color: white;
+}
+
+.cartas-c a{
+    color: black;
+    text-decoration: none;
+}
+
+.cartas-c a:hover{
+    color: white;
+}
+
+#listo a{
+    color: black;
+    text-decoration: none;
+}
+
+#listo a.hover{
+    color: white;
+}
+
+body{
+    background-image: url("/tierra\ vasura.jpg");
+    text-align: center;
+    align-items: center;
+}
+
+.imajen p {
+font-size: 30px;
+}
+.imajen h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#caracteristicas p {
+    font-size: 30px;
+    color: green;
+}
+#caracteristicas li {
+    font-size: 25px;
+color: blue;
+
+}
+
+.grupo-G p {
+    color: white;
+
+}
